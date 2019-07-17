@@ -1,0 +1,46 @@
+.container {
+    padding: 10px;
+}
+
+.container .search {
+    position: relative;
+    border: 1px solid #069;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 18px;
+}
+
+.container input[type=text] {
+    padding-right: 70px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: none;
+    font-size: 14px;
+}
+
+.container input[type=button] {
+    position: absolute;
+    width: 60px;
+    height: 28px;
+    right: 0;
+    top: 0;
+    border-radius: 0;
+    background-color: skyblue;
+    color: #fff;
+    border: none;
+}
+
+.container .title {
+    margin-bottom: 18px;
+}
+
+.container #historySearch {
+    display: none;
+}
+
+#historySearch li {
+    height: 36px;
+    line-height: 36px;
+    text-indent: 20px;
+}

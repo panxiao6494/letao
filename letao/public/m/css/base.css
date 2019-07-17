@@ -1,0 +1,138 @@
+.my-header {
+    background: #006699;
+}
+
+.my-header h1 {
+    color: #fff;
+}
+
+.my-header .mui-icon {
+    color: #fff;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+* {
+    touch-action: none;
+}
+
+a {
+    color: #000;
+}
+
+body,
+.mui-content {
+    background-color: #fff;
+}
+
+.my-footer {
+    background-color: #006699;
+}
+
+.my-footer .mui-tab-item {
+    color: #fff;
+}
+
+.mui-active {
+    color: darkorange !important;
+}
+
+.nav-links {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    flex: 33.33%;
+}
+
+.nav-links a img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.brand {
+    padding: 0 10px;
+}
+
+.brand ul {
+    padding: 10px 0;
+}
+
+.brand ul li {
+    float: left;
+    width: 25%;
+}
+
+.brand ul li a {
+    display: block;
+}
+
+.brand ul li a img {
+    width: 100%;
+}
+
+.brand .brand-title {
+    width: 100%;
+}
+
+.product {
+    padding: 0 10px;
+}
+
+.product .product-title {
+    width: 100%;
+}
+
+.product ul {
+    padding: 10px 0;
+}
+
+.product ul li {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.product li a {
+    display: block;
+    padding: 0 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.product li a img {
+    width: 100%;
+}
+
+.product .name {
+    font-size: 14px;
+    text-align: center;
+}
+
+.product .prize {
+    text-align: center;
+}
+
+.product .prize span:nth-child(1) {
+    color: red;
+    margin-right: 2px;
+}
+
+.product .prize span:nth-child(2) {
+    text-decoration: line-through;
+    margin-left: 2px;
+}
+
+.buy-now {
+    display: block;
+    margin: 0 auto 10px;
+    background-color: #0064B2;
+    color: #fff;
+    border-radius: 2px;
+
+}

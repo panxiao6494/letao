@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="assets/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/category.css">
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="js/category.js"></script>
+    <script src="assets/mui/js/mui.min.js"></script>
+    <script src="assets/artTemplate/template-native(1).js"></script>
+    <script src="js/public.js"></script>
+    <title>乐淘云购--购物者的天堂</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="mui-bar mui-bar-nav my-header">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">乐淘云购</h1>
+        <a href="" class="mui-icon mui-icon-search mui-pull-right"></a>
+    </header>
+    <!-- 脚部导航栏 -->
+    <nav class="mui-bar mui-bar-tab footer my-footer">
+        <a class="mui-tab-item" href="index.html">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item mui-active" href="category.html">
+            <span class="mui-icon mui-icon-bars"></span>
+            <span class="mui-tab-label">分类</span>
+        </a>
+        <a class="mui-tab-item" href="cart.html">
+            <span class="mui-icon fa fa-shopping-cart"></span>
+            <span class="mui-tab-label">购物车</span>
+        </a>
+        <a class="mui-tab-item" href="user.html">
+            <span class="mui-icon mui-icon-person"></span>
+            <span class="mui-tab-label">会员中心</span>
+        </a>
+    </nav>
+    <!-- 内容部分，左边宽度，右边自适应 -->
+    <div class="my-content">
+        <div class="cate-list">
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <div class="links">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-list">
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <ul class="brand-list mui-clearfix">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script id="category-first" type="text/template">
+        <% for (let i=0;i<rows.length;i++) {%>
+            <a href="javascript:;" data-id="<%=rows[i].id%>"><%= rows[i].categoryName %></a>
+        <% }%>
+    </script>
+
+    <script id="category-second" type="text/template">
+        <% for (let i=0;i<rows.length;i++) {%>
+            <li>
+                <a href="javascript:;">
+                    <img src="<%=rows[i].brandLogo%>" alt="">
+                    <p><%=rows[i].brandName%></p>
+                </a>
+            </li>
+        <% }%>
+       <% if(!rows.length) {%>
+         <div>没有数据</div>
+       <%}%>
+    </script>
+</body>
+
+</html>

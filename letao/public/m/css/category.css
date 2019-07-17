@@ -1,0 +1,69 @@
+.my-content {
+    position: absolute;
+    top: 44px;
+    bottom: 50px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.cate-list,
+.cont-list {
+    height: 100%;
+    position: relative;
+}
+
+.cate-list {
+    float: left;
+    width: 80px;
+}
+
+.cont-list {
+    margin-left: 90px;
+}
+
+.links {
+    background-color: #fff;
+}
+
+.cate-list a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.cate-list .active {
+    background-color: #f5f5f5;
+    border-right: 1px solid transparent;
+}
+
+.brand-list {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #fff; 
+}
+
+.brand-list li {
+    float: left;
+    text-align: center;
+    width: 33.333%;
+}
+
+.brand-list a {
+    display: block;
+}
+
+.brand-list a img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.brand-list p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}

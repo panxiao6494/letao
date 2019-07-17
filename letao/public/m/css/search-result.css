@@ -1,0 +1,16 @@
+.product .prise {
+    width: 96%;
+    height: 38px;
+    line-height: 38px;
+    background-color: #EFEFF4;
+    margin: 10px auto 0;
+}
+
+.prise .mui-pull-left {
+    width: 50%;
+    text-align: center;
+}
+.prise .mui-pull-right {
+    width: 50%;
+    text-align: center;
+}
